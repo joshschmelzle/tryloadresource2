@@ -1,0 +1,13 @@
+[project]
+name = "tryloadresource"
+description = "trys to load a resource using importlib"
+version = "0.0.1"
+authors = [
+    { name = "Josh Schmelzle", email = "josh@joshschmelzle.com" }
+]
+
+[project.scripts]
+tryloadresource = "tryloadresource.__main__:main"
+
+[tool.setuptools.package-data]
+tryloadresource = ["*.txt"] 
