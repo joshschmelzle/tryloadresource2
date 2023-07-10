@@ -10,4 +10,4 @@ authors = [
 tryloadresource = "tryloadresource.__main__:main"
 
 [tool.setuptools.package-data]
-tryloadresource = ["*.txt"] 
+tryloadresource = ["*.csv"] 
